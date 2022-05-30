@@ -62,6 +62,20 @@ below are commands for initializing your local project into remote git repositor
         git add .
     again if you change anything in any file you can check by using
         git status -> this will show all changed files
+    we one have special process for committing by typing below command  
+        git commit <Enter>
+        this will take you to a interface you can add message 
+            the line that starts with # will be ignored in commit
+            we can go into controls by using insert button
+            to get out from insert mode  we need to type <Esc> button 
+                then type :wq to get out of prompt
+            
+            
+            
+
+
+
+
     
     
 
