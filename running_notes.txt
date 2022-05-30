@@ -88,6 +88,27 @@ Note : whenever you are switching to new branch make sure that you must commit t
 
         if you switch to old branch the new branch changes will not be shown in old branch
 
+
+For merging into current branch with other one we need to use below command
+    go to the branch where it needs to be merged <target branch>
+    then use command git merge <branch to  be merged>
+
+    to see all remote repositories in local
+    use command git remote
+
+
+
+    To add remote repository 
+        use git remote add origin <url>
+    To push to remote repo
+        use git push 
+
+    
+
+    
+
+
+
         
         
 
