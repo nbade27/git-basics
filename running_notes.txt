@@ -1,0 +1,72 @@
+VCS --> version control system
+    for tracking changes in computer files
+
+        Features :
+            Distributed version control
+            Coordinates work between multiple developers
+            Who made what changes and when
+            Revert back at anytime
+            Local and remote repos
+
+Note: you don't have to connect to internet for working in local repos
+      we need to connect to internet for pushing to remote repos
+
+Concepts of Git
+    Keeps track of code history
+    Takes "snapshots" of your files
+    you decide when to take a snapshot by making a "commit"
+    you can visit any snapshot anytime
+    you can stage  files before committing
+
+
+
+Some important commands in Git
+    git init -> Initialize local git repo
+    git add -> Add file(s) ti index
+    git status -> check status of working tree
+    git commit -> commit changes into index
+    git push -> push to remote repository
+    git pull -> pull latest code form remote repository
+    git clone -> clone repository into a new directory
+
+Installing git
+    Linux(Debian)
+        sudo apt-get install git
+    Linux(Fedora)
+        sudo yum install git
+    Mac
+        http://git-scm.com/download/mac
+    Windows
+        http://git-scm.com/download/win
+
+Git Bash(Command line tool) gives the linux experience in Windows
+
+use touch Command for creating file 
+    touch Index.html --> this will create an file in given directory
+
+below are commands for initializing your local project into remote git repository
+    git init -> initializes local git repository
+
+    we can also add git username and email in git bash by using commands
+        git config --global user.name '<user name>'
+        git config --global user.email '<Email>>'
+    
+    git add <file name> will add files to stage area
+    we can check the files that are added to git by using command 
+        git status
+    we can also remove added files from staging area by using command
+        git rm --cached <file name>
+    we also can add same file types using 
+        git add <*.html> -> this will add all html files
+    to add all files in local repo
+        git add .
+    again if you change anything in any file you can check by using
+        git status -> this will show all changed files
+    
+    
+
+    
+    
+
+
+
