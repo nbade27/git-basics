@@ -86,6 +86,8 @@ Note : whenever you are switching to new branch make sure that you must commit t
         we can go to new branch by using command
         git checkout <branch name>
 
+        if you switch to old branch the new branch changes will not be shown in old branch
+
         
         
 
