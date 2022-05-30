@@ -69,7 +69,23 @@ below are commands for initializing your local project into remote git repositor
             we can go into controls by using insert button
             to get out from insert mode  we need to type <Esc> button 
                 then type :wq to get out of prompt
-            
+    we can skip whole above process by simply typing 
+        git commit -m "<commit message>"
+    we can also make git to ignore some files by using .gitIgnore file
+        git touch .gitIgnore    
+        add file names with extension to be ignored by git
+        we can also add folder in gitignore file to be ignored
+        we can also include like *.txt or *.html files for ignoring given types of files in commit
+    
+    we can also separate our code by using branching
+Note : whenever you are switching to new branch make sure that you must commit to current branch
+
+        for creating new branch
+        git branch <branch name>
+        
+
+
+
             
             
 
