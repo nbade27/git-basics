@@ -82,6 +82,11 @@ Note : whenever you are switching to new branch make sure that you must commit t
 
         for creating new branch
         git branch <branch name>
+
+        we can go to new branch by using command
+        git checkout <branch name>
+
+        
         
 
 
