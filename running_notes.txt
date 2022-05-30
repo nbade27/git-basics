@@ -101,7 +101,7 @@ For merging into current branch with other one we need to use below command
     To add remote repository 
         use git remote add origin <url>
     To push to remote repo
-        use git push 
+        use git push -u origin <branch>
 
     
 
